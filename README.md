@@ -17,11 +17,11 @@ Użyć przycisków "Stop" i "Reset", aby zatrzymać lub zresetować symulację.
 Struktura Projektu
 Projekt jest dostępny w dwóch wersjach:
 
-Wersja Jednoplikowa: Cała logika i interfejs użytkownika znajdują się w jednym pliku app.py.
+Wersja Jednoplikowa: Cała logika i interfejs użytkownika znajdują się w jednym pliku bez_importu.py.
 Wersja Modułowa: Projekt podzielony jest na trzy pliki:
 main.py: Główny plik, uruchamiający aplikację.
-logic.py: Zawiera logikę obliczeniową symulacji.
-ui.py: Zawiera definicję interfejsu użytkownika.
+logic_for_rzut.py: Zawiera logikę obliczeniową symulacji.
+UI_for_rzut.py: Zawiera definicję interfejsu użytkownika.
 W zależności od preferencji, użytkownik może wybrać wersję jednoplikową dla prostoty, lub wersję modułową dla lepszej organizacji kodu i łatwiejszego utrzymania.
 
 Wymagania
